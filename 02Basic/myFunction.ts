@@ -22,7 +22,7 @@ loginUser('mmm', 'mm')
 function getHello(s: string): string {
     return ""
 }
-const heros = ['thor', 'spiderman', 'ironman'];
+const heros: string[] = ['thor', 'spiderman', 'ironman'];
 
 
 function consoleError(errmsg: string): void {
@@ -36,23 +36,9 @@ function handleError(errmsg: string): never {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-heros.map((hero): string => {
+heros.map((hero: string): string => {
     return `hero is ${hero}`
 })
-
-
-
 
 
 const result = addTwo(2)
@@ -60,4 +46,5 @@ const result1 = getUpper('mohaiminul')
 const result2 = signUpUser('Mohaiminul', 'mohaiminul375@gmail.com', true)
 console.log(result)
 console.log(result1)
+
 export { }

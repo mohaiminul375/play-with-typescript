@@ -1,4 +1,4 @@
-const user = {
+ const user = {
     name: "Mohaiminul",
     email: 'ex@gmail.com',
     isActive: true
