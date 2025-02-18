@@ -3,7 +3,7 @@ type User = {
     name: string;
     email: string;
     isActive: boolean;
-    creditCardDetails?: number;
+    creditCardDetails?: number; //optional
 }
 
 let myUser: User = {
@@ -15,7 +15,7 @@ let myUser: User = {
 
 
 type cardNumber = {
-    cardnumber: string;
+    cardNumber: string;
 }
 type cardDate = {
     cardDate: string;
@@ -24,6 +24,7 @@ type cardDate = {
 type cardDetails = cardNumber & cardDate & {
     CVV: number;
 }
+const myCardDetails: cardDetails = { cardNumber: '123-03338', cardDate: '12-12-2030', CVV: 208 }
 
 // myUser._id='' error because it's read only
 export { }

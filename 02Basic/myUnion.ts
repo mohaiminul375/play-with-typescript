@@ -23,10 +23,14 @@ function getId(id: number | string) {
 getId('2')
 getId(2)
 // array
-const data: (number | string)[] = [1, 2, 3, 'string']
+const data: (number | string)[] = [1, 2, 3, 'string'] //could be number and string both
+const data2: number[] | string[] = [1, 2, 3, 4] //all value must be number either string
+
+let pi: 3.14 = 3.14;
+
 let seatAllotment: "aisle" | "middle" | "window";
 seatAllotment = 'aisle'
-// seatAllotment='right' error
+// seatAllotment='right' //error
 
 
 

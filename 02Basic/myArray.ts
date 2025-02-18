@@ -7,20 +7,16 @@ heroPower.push(2)
 type User = {
     name: string;
     isActive: boolean;
+    age?: number
 }
 const allUsers: User[] = [];
-
+allUsers.push({
+    name: '', isActive: true
+});
 
 const MLModels: number[][] = [
     [255, 255, 255], [25]
 ]
 
 
-
-
-
-
-
-allUsers.push({
-    name: '', isActive: true
-});
+export { }

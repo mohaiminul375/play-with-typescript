@@ -6,3 +6,4 @@ var myUser = {
     email: "@",
     isActive: true,
 };
+var myCardDetails = { cardNumber: '123-03338', cardDate: '12-12-2030', CVV: 208 };
